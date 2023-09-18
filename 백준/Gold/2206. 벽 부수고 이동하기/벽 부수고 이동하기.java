@@ -42,7 +42,7 @@ public class Main {
 
         Queue<Pair> q = new LinkedList<>();
         q.offer(new Pair(0,0, 0));
-        dist[0][0][0] = dist[1][0][0] = 1; // 0=> 벽 안부숨 , 1 => 벽 부숨
+        dist[0][0][0] =  1; // 0=> 벽 안부숨 , 1 => 벽 부숨
 
 
         while (!q.isEmpty()) {
